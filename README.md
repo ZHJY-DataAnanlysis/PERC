@@ -53,7 +53,7 @@ Here are their key characteristics:
 
 The figure presents the categories for each classification task, along with a summary of the Standard Educational Resource Classification Guidelines to clarify the definitions of each category.
 
-![Guideline](./Image/Guideline.png)
+![Guideline](./Image/guide.png)
 
 ## <div align="center" id="responsible-use">⚒️Responsible Use</div> <!-- omit in toc -->
 
