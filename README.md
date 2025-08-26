@@ -57,17 +57,21 @@ The figure presents the categories for each classification task, along with a su
 
 ## <div align="center" id="responsible-use">⚒️Responsible Use</div> <!-- omit in toc -->
 
-MSDS is collected for handwriting identity verification. Specifically, the MSDS-ChS subset could be exploited in online/offline Chinese signature verification, and the MSDS-TDS subset is intended to be used in online/offline identity verification with Token Digit Strings. In addition, MSDS can be exploited in writer identification.
+EduMix-24 and EduMath-24 Datasets is collected for Classifying Long-Content Educational Resources with Imbalanced Category Distributions. 
+
+Specifically, \textbf{EduMix-24:} This dataset encompasses teaching resources for 11 subjects, including Chinese, English, Science, Information Technology, math, Physics, Chemistry, Biology, History, Geography, and Moral \& Legal Studies. The resources are divided into two tasks: lesson type classification and teaching mode classification. Due to the imbalanced nature of the dataset, significant variations exist in sample sizes across subtasks, reflecting the distribution typically observed in real-world educational scenarios.
+
+\textbf{EduMath-24:} This dataset focuses on mathematical teaching resources for primary and middle school levels, containing extensive mathematical symbols and formulas. It includes the same resource types as EduMix-24: lesson plans, study guides, courseware, instructional videos, and test questions. Additionally, EduMath-24 features an ability elements classification subtask. The dataset's pronounced imbalance presents a valuable opportunity for research into long-text processing and the comprehension of mathematical notation.
 
 ## <div align="center" id="experimental-result">🔭Experimental Result</div> <!-- omit in toc -->
 
-![chs](./images/chs-tds.png)
+![results](./Image/results.png)
 
-Experimental results show all models perform better on MSDS-TDS than MSDS-ChS. This finding is inspiring that the accuracy of TDS verification is higher than that of Chinese signature verification as the two subsets were collected simultaneously. Therefore, Token Digit String could be a more effective biometric trait than Chinese signature for high-accurate online verification.
+We evaluated PERC against several strong baseline models on EduMix-24 and EduMath-24 using standard metrics, including Accuracy, F1 Score, and Area Under the ROC Curve (AUC). The best-performing results for each task are highlighted in bold. These baselines include both traditional text classifiers (e.g., BERT, RoBERTa) and specialized long-text models (e.g., BigBird, mLongT5), allowing us to comprehensively assess PERC’s effectiveness in handling long-form  educational content.
 
 ## <div align="center" id="license">📄License</div>
 
-MSDS should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
+EduMix-24 and EduMath-24 Datasets should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
 
 ## <div align="center" id="citation">:bookmark_tabs:Citation</div> <!-- omit in toc -->
 
