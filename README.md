@@ -77,20 +77,18 @@ EduMix-24 and EduMath-24 Datasets should be used and distributed under [Creative
 
 ```
 @inproceedings{zhang2022msds,
-    author = {Zhang, Peirong and Jiang, Jiajia and Liu, Yuliang and Jin, Lianwen},
-    booktitle = {{Advances in Neural Information Processing Systems (NeurIPS)}},
-    pages = {36507--36519},
-    title = {{MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification}},
-    volume = {35},
-    year = {2022}
+    author = {Quanlong Guan, Xiuliang Duan, Zhi Chen, Xingyu Zhu, Jianbo Huang, Xinzhong Liu, Zonglin Liu, Liangda Fang},
+    booktitle = {{The 34th ACM International Conference on Information and Knowledge Management (CIKM-2025)}},
+    title = {{PERC: A Prior-Guided Framework for Classifying Long-Content Educational Resources with Imbalanced Category Distributions}},
+    year = {2025}
 }
 ```
 
 ## <div align="center" id="copyright">:palm_tree:Copyright</div> <!-- omit in toc -->
 
-For commercial purpose usage, please contact Prof. Lianwen Jin: eelwjin@scut.edu.cn.
+For commercial purpose usage, please contact Prof. Quanlong Guan: gql@jnu.edu.cn or Doc. Xiuliang Duan dxl1001@stu2022.jnu.edu.cn.
 
-Copyright 2022-2025, [Deep Learning and Vision Computing Lab](http://www.dlvc-lab.net), South China China University of Technology.
+Copyright 2025-2027, [Guangdong Institute of Smart Education, Jinan University](http://www.dlvc-lab.net), Jinan University.
 
 
 
