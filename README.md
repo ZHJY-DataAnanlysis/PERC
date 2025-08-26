@@ -22,7 +22,7 @@
 
 ## <div align="center" id="usage&download">🖥️Usage & Download</div> <!-- omit in toc -->
 
-- The EduMix-24 and EduMath-24 Datasets can only be used for non-commercial research purposes. For scholar or organization who wants to use the EduMix-24 and EduMath-24 Datasets, please first fill in this [Application Form](./application-form/Application-Form-for-Using-MSDS.docx) and sign the [Legal Commitment](./application-form/Legal-Commitment.docx) and email them to us. When submitting the application form to us, please list or attached 1-2 of your publications in the recent 6 years to indicate that you (or your team) do research in the related research fields of Smart Education,  Long-Content Classification, Imbalanced Categories, Prior Knowledge, Large Language Model, and so on. 
+- The EduMix-24 and EduMath-24 Datasets can only be used for non-commercial research purposes. For scholar or organization who wants to use the EduMix-24 and EduMath-24 Datasets, please first fill in this [Application Form](./application-form/Application-Form-for-Using-EduMix-24 and EduMath-24 Datasets.docx) and sign the [Legal Commitment](./application-form/Legal-Commitment.docx) and email them to us. When submitting the application form to us, please list or attached 1-2 of your publications in the recent 6 years to indicate that you (or your team) do research in the related research fields of Smart Education,  Long-Content Classification, Imbalanced Categories, Prior Knowledge, Large Language Model, and so on. 
 - We will give you the download link and the decompression password after your application has been received and approved.
 - All users must follow all use conditions; otherwise, the authorization will be revoked.
 
@@ -87,9 +87,6 @@ EduMix-24 and EduMath-24 Datasets should be used and distributed under [Creative
 The EduMix-24 and EduMath-24 Datasets: Classifying Long-Content Educational Resources with Imbalanced Category Distributions, built by Guangdong Institute of Smart Education are released for academic research free of cost under an agreement.
 
 For commercial purpose usage, please contact Prof. Quanlong Guan: gql@jnu.edu.cn or Doc. Xiuliang Duan dxl1001@stu2022.jnu.edu.cn.
-
-The application form of the dataset for academic research can be downloaded bellowing:
-
 
 Copyright 2025-2027, [Guangdong Institute of Smart Education, Jinan University](http://www.dlvc-lab.net), Jinan University.
 
