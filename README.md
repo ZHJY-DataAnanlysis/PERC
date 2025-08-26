@@ -86,7 +86,12 @@ EduMix-24 and EduMath-24 Datasets should be used and distributed under [Creative
 
 ## <div align="center" id="copyright">:palm_tree:Copyright</div> <!-- omit in toc -->
 
+The CASIA-PGPS9K: Plane Geometry Problem Solving Dataset, built by CASIA, are released for academic research free of cost under an agreement.
+
 For commercial purpose usage, please contact Prof. Quanlong Guan: gql@jnu.edu.cn or Doc. Xiuliang Duan dxl1001@stu2022.jnu.edu.cn.
+
+The application form of the dataset for academic research can be downloaded bellowing:
+
 
 Copyright 2025-2027, [Guangdong Institute of Smart Education, Jinan University](http://www.dlvc-lab.net), Jinan University.
 
