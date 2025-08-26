@@ -31,14 +31,22 @@
 
 ## <div align="center" id="description">📖Description</div>
 
-MSDS dataset is a handwriting verification benchmark dataset and consists of two subsets: MSDS-ChS (for Chinese signatures) and MSDS-TDS (for Token Digit Strings). Each subset contains 16080 samples from 402 users, with 20 genuine samples and 20 skilled forgeries per user. The details are presented below:
+The EduMix-24 and EduMath-24 datasets are specialized collections of educational resources designed for the task of automatic educational content classification.
+Here are their key characteristics:
 
-| Subset   | Content            | Online | Offline | User | Genuine Sample              | Skilled Forgery             | Features        |
-| -------- | ------------------ | :----: | :-----: | ---- | --------------------------- | --------------------------- | --------------- |
-| MSDS-ChS | Chinese Signature  |   ✓    |    ✓    | 402  | $402\times(10 + 10) = 8040$ | $402\times(10 + 10) = 8040$ | $X,Y,P,T,I_r,U$ |
-| MSDS-TDS | Token Digit String |   ✓    |    ✓    | 402  | $402\times(10 + 10) = 8040$ | $402\times(10 + 10) = 8040$ | $X,Y,P,T,I_r,U$ |
+    Source: They were sourced from a real-world intelligent education platform, meaning the data is authentic and reflects modern digital learning materials.
 
-$X,Y,P,T,I_r,U$ respectively denote the $x, y$ coordinates, pressure, timestamps, rendered static images, and the pen-up/pen-down information. The pen-down/pen-up information is represented by 0~4. 0 indicates that this is not a pen-up/pen-down point. 1 indicates that this is a pen-down point. 2 indicates that this is a pen-up point. 3 indicates that this point is both a pen-up and pen-down point, which is isolated.
+    Composition: Together, they consist of 18,799 individual educational resources. These resources could include items like lesson plans, video lectures, interactive exercises, homework assignments, or presentation slides.
+
+    Annotation: A crucial feature is that all resources have been manually annotated by human experts. This ensures high-quality labels for training and evaluating machine learning models.
+
+    Classification Tasks: The resources are labeled across three distinct classification tasks:
+
+        9 Lesson Types: Categorizing the overall structure or goal of the lesson (e.g., Practice class, Self-study class, Cooperative class).
+
+        15 Teaching Modes: Identifying the primary instructional method used (e.g., Single-point teaching, Heuristic teaching,  Debate teaching).
+
+        9 Activity Elements: Labeling the specific interactive components within the resource (e.g., Identify (A1), Understand (A2), Apply (A3)).
 
 The contributions of MSDS include:
 
