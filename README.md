@@ -20,12 +20,11 @@
 - [Responsible Use](#responsible-use)
 - [Experimental Result](#experimental-result)
 - [License](#license)
-- [Directory Format](#directory-format)
 - [Copyright](#copyright)
 
 ## <div align="center" id="usage&download">🖥️Usage & Download</div> <!-- omit in toc -->
 
-- The MSDS dataset can only be used for non-commercial research purposes. For scholar or organization who wants to use the MSDS dataset, please first fill in this [Application Form](./application-form/Application-Form-for-Using-MSDS.docx) and sign the [Legal Commitment](./application-form/Legal-Commitment.docx) and email them to us. When submitting the application form to us, please list or attached 1-2 of your publications in the recent 6 years to indicate that you (or your team) do research in the related research fields of handwriting verification, handwriting analysis and recognition, document image processing, and so on. 
+- The EduMix-24 and EduMath-24 Datasets can only be used for non-commercial research purposes. For scholar or organization who wants to use the EduMix-24 and EduMath-24 Datasets, please first fill in this [Application Form](./application-form/Application-Form-for-Using-MSDS.docx) and sign the [Legal Commitment](./application-form/Legal-Commitment.docx) and email them to us. When submitting the application form to us, please list or attached 1-2 of your publications in the recent 6 years to indicate that you (or your team) do research in the related research fields of Smart Education,  Long-Content Classification, Imbalanced Categories, Prior Knowledge, Large Language Model, and so on. 
 - We will give you the download link and the decompression password after your application has been received and approved.
 - All users must follow all use conditions; otherwise, the authorization will be revoked.
 
@@ -68,93 +67,6 @@ Experimental results show all models perform better on MSDS-TDS than MSDS-ChS. T
 ## <div align="center" id="license">📄License</div>
 
 MSDS should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
-
-## <div align="center" id="directory-format">📁Directory Format</div> <!-- omit in toc -->
-
-The dataset is organized in the following directory format:
-
-```bash
-├─MSDS
-│  ├─MSDS-ChS
-│  │  ├─session1
-│  │  │  ├─0
-│  │  │  │  ├─images
-│  │  │  │  │  ├─f_0_0.png
-│  │  │  │  │  ├─f_0_1.png
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.png
-│  │  │  │  │  ├─g_0_1.png
-│  │  │  │  │  └─...
-│  │  │  │  └─series
-│  │  │  │  │  ├─f_0_0.txt
-│  │  │  │  │  ├─f_0_1.txt
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.txt
-│  │  │  │  │  ├─g_0_1.txt
-│  │  │  │  │  └─...
-│  │  │  ├─1
-│  │  │  │  ├─images
-│  │  │  │  │  ├─f_0_0.png
-│  │  │  │  │  ├─f_0_1.png
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.png
-│  │  │  │  │  ├─g_0_1.png
-│  │  │  │  │  └─...
-│  │  │  │  └─series
-│  │  │  │  │  ├─f_0_0.txt
-│  │  │  │  │  ├─f_0_1.txt
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.txt
-│  │  │  │  │  ├─g_0_1.txt
-│  │  │  │  │  └─...
-│  │  │  └─...
-│  │  └─session2
-│  │      ├─...
-│  └─MSDS-TDS
-│  │  ├─session1
-│  │  │  ├─0
-│  │  │  │  ├─images
-│  │  │  │  │  ├─f_0_0.png
-│  │  │  │  │  ├─f_0_1.png
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.png
-│  │  │  │  │  ├─g_0_1.png
-│  │  │  │  │  └─...
-│  │  │  │  └─series
-│  │  │  │  │  ├─f_0_0.txt
-│  │  │  │  │  ├─f_0_1.txt
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.txt
-│  │  │  │  │  ├─g_0_1.txt
-│  │  │  │  │  └─...
-│  │  │  ├─1
-│  │  │  │  ├─images
-│  │  │  │  │  ├─f_0_0.png
-│  │  │  │  │  ├─f_0_1.png
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.png
-│  │  │  │  │  ├─g_0_1.png
-│  │  │  │  │  └─...
-│  │  │  │  └─series
-│  │  │  │  │  ├─f_0_0.txt
-│  │  │  │  │  ├─f_0_1.txt
-│  │  │  │  │  ├─...
-│  │  │  │  │  ├─g_0_0.txt
-│  │  │  │  │  ├─g_0_1.txt
-│  │  │  │  │  └─...
-│  │  │  └─...
-│      └─session2
-│  │      ├─...
-```
-
-- The `MSDS-ChS` folder contains Chinese signatures and `MSDS-TDS` contains Token Digit Strings (TDS).
-- Each of them contains the data in two sessions which is stored in `session1` and `session2`.
-- The users are arranged from `0` to `401`, with online dynamic time series and offline static images provided in `series` and `images`. The time series are saved as `.txt` files and the images are in `.png` format.
-- The naming of each file follows the same format: `flag_user_index`.
-- - `flag` is `f` or `g`. `f` indicates that this file is a skilled forgery, while `g` indicates that it is a genuine sample.
-- - `user` indicates the number of user of this file.
-- - `index` indicates the number of this file (`.txt` or `.png`) in the current folder.
-- - For example, `f_0_0.txt` represents the first file (time series) of all skilled forgeries of the user `0`. `g_5_6.png` represents the seventh file (image) of all genuine samples of the user `5`.
 
 ## <div align="center" id="citation">:bookmark_tabs:Citation</div> <!-- omit in toc -->
 
