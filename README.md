@@ -1,8 +1,6 @@
 # <div align="center">📝EduMix-24 and EduMath-24 Datasets
 
 <div align="center">
-  <a href="https://huggingface.co/papers/2210.08836"> <img alt="Static Badge" src="https://img.shields.io/badge/HuggingFace-Paper-FFBF00?logo=HuggingFace&logoColor=rgb&labelColor=gray"></a>
-  <a href="./LICENSE"> <img alt="Static Badge" src="https://img.shields.io/badge/License-GPLv3-008844?logo=GNUBash&logoColor=rgb&labelColor=gray"></a>
 <p></p>
 
 <b>PERC: A Prior-Guided Framework for Classifying Long-Content Educational Resources with Imbalanced Category Distributions</b> </a>
