@@ -47,13 +47,13 @@ Here are their key characteristics:
 
         9 Activity Elements: Labeling the specific interactive components within the resource (e.g., Identify (A1), Understand (A2), Apply (A3)).
 
-![datasets](./images/datasets.png)
+![datasets](./Image/datasets.png)
 
 ## <div align="center" id="collection">🧬Collection</div> <!-- omit in toc -->
 
 The figure presents the categories for each classification task, along with a summary of the Standard Educational Resource Classification Guidelines to clarify the definitions of each category.
 
-![Guideline](./images/Guideline.png)
+![Guideline](./Image/Guideline.png)
 
 ## <div align="center" id="responsible-use">⚒️Responsible Use</div> <!-- omit in toc -->
 
