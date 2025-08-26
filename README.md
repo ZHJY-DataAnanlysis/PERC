@@ -48,19 +48,12 @@ Here are their key characteristics:
 
         9 Activity Elements: Labeling the specific interactive components within the resource (e.g., Identify (A1), Understand (A2), Apply (A3)).
 
-The contributions of MSDS include:
-
-- [x] MSDS-ChS is the largest publicly available Chinese signature dataset for signature for signature verification, at least eight times larger than existing ones.
-- [x] MSDS-TDS is the first dataset that covers Token Digit String, which brings a new and effective biometric for handwriting verification.
-- [x] The experimental results indicates that the Token Digit String is more powerful than Chinese signature, which is inspiring and promising.
 
 ## <div align="center" id="collection">🧬Collection</div> <!-- omit in toc -->
 
-The data of MSDS was acquired with two types of Android tablets. Both of them have specific stylus. We specifically developed an Android app and the user interface is shown below. Users directly performed handwriting on the tablets with specific styluses and the produced information was automatically recorded by the app.
+The figure presents the categories for each classification task, along with a summary of the Standard Educational Resource Classification Guidelines to clarify the definitions of each category.
 
 ![gui](./images/gui.png)
-
-The data acquisition process is divided into two separate sessions with a time interval of at least 21 days. In each session, users performed writing according to the same procedure: 10 genuine signatures→10 genuine phone numbers→10 forged signatures→10 forged phone numbers.
 
 ## <div align="center" id="responsible-use">⚒️Responsible Use</div> <!-- omit in toc -->
 
